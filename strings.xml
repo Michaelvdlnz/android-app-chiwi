@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChiwiCatering</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_food">select_food</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_select__your_food">Select_Your_food</string>
+    <string name="title_activity_paella">Paella</string>
+    <string name="title_activity_mussels">mussels</string>
+    <string name="title_activity_pasta">pasta</string>
+    <string name="title_activity_soup">soup</string>
+    <string name="title_activity_pies">pies</string>
+    <string name="title_activity_special">special</string>
+
+</resources>

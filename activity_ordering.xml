@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="StartOrder"
+    tools:context=".OrderingActivity">
+
+    <ImageView
+        android:src="@drawable/background_red_gradiant"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_marginTop="120dp"
+                android:id="@+id/chiwi_logo"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/chiwi_logo_no_border_black"/>
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/chiwi_writing_with_catering_food_truck"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#fff6f7fb"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:textSize="55sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:text="To"
+            android:textSize="45sp"
+            android:gravity="center"/>
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

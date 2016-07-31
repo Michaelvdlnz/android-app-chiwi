@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context="co.nz.chiwicatering.chiwicatering.select_food">
+
+    <TextView
+        android:text="Menu Big Pan-Dish"
+        android:textColor="#ff000000"
+        android:textSize="30sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <ScrollView
+        style="@style/background_trans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="click_paella">
+                    <ImageView
+                        android:src="@drawable/paella_take_away"
+                        style="@style/picture"/>
+                    <TextView
+                        android:background="#61ffffff"
+                        android:text="Paella"
+                        style="@style/TextStyle"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:visibility="visible"
+                    android:id="@+id/MusselsMenu"
+                    android:onClick="click_mussels"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:src="@drawable/mussels_take_away"
+                        style="@style/picture"/>
+                    <TextView
+                        android:background="#61ffffff"
+                        android:text="Mussels"
+                        style="@style/TextStyle"/>
+                    </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:onClick="click_pasta"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:src="@drawable/pasta_takeawy"
+                        style="@style/picture"/>
+                    <TextView
+                        android:background="#61ffffff"
+                        android:text="Pasta"
+                        style="@style/TextStyle"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:onClick="click_soup"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:src="@drawable/soup_takeaway"
+                        style="@style/picture"/>
+                    <TextView
+                        android:background="#61ffffff"
+                        android:text="Soup"
+                        style="@style/TextStyle"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:onClick="click_pies"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:src="@drawable/pies"
+                        style="@style/picture"/>
+                    <TextView
+                        android:background="#61ffffff"
+                        android:text="Pies"
+                        style="@style/TextStyle"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:onClick="click_special"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:src="@drawable/today_special"
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:scaleType="center"
+                        android:layout_margin="2dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nz.co.chiwicatering.chiwicatering" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_logo_white_bkg"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.OrderingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.select_food"
+            android:label="select_food" >
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.Paella"
+            android:label="@string/title_activity_paella" >
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.mussels"
+            android:label="@string/title_activity_mussels" >
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.pasta"
+            android:label="@string/title_activity_pasta" >
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.soup"
+            android:label="@string/title_activity_soup" >
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.pies"
+            android:label="@string/title_activity_pies" >
+        </activity>
+        <activity
+            android:name="co.nz.chiwicatering.chiwicatering.special"
+            android:label="@string/title_activity_special" >
+        </activity>
+    </application>
+
+</manifest>

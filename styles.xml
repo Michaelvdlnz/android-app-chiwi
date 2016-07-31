@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="background_trans">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="picture" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="TextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+
+</resources>
